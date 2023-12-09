@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Agbalumo&family=Concert+One&family=Dancing+Script:wght@400;500&family=Playpen+Sans:wght@400;500&display=swap");
+body {
+    display:inline;
+    background-color:#ac7339;
+    text-align: center;
+}
+
+header {
+    background-color: #734d26;
+    color: #fff;
+    font-family:dancing script;
+    font-size:xx-large;
+    padding: 20px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.product {
+    display: grid;
+    background-color: #c68c53;
+    border: 1px solid #996633;
+    margin:top;
+    border-width:10px;
+    padding: 10px;
+    text-align: center;
+    width: 250px;
+}
+
+h2{
+    text-align:bottom;
+}
+ 
+
+img {
+    max-width: 150px;
+}
+
+button {
+    background-color: #4d3319;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+#cart {
+    background-color: #cc9966;
+    
+    padding: 20px;
+    margin: 20px;
+}
+
+#total-price {
+    font-weight: bold;
+}

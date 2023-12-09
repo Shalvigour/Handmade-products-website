@@ -1,0 +1,390 @@
+@import url("https://fonts.googleapis.com/css2?family=Agbalumo&family=Concert+One&family=Dancing+Script:wght@400;500&family=Playpen+Sans:wght@400;500&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Agbalumo&family=Concert+One&family=Dancing+Script:wght@400;500&family=Playfair+Display&family=Playpen+Sans:wght@400;500&display=swap");
+
+.material-icons {
+  font-size: 37px;
+  color: white;
+}
+#mega1 {
+  font-size: 37px;
+  padding: 0px;
+}
+.button {
+  background-color: #86592d;
+  border: none;
+  vertical-align: center;
+}
+.ttext1 {
+  text-align: center;
+  font-family: playfair display;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  margin-left: 11%;
+}
+.textt2 {
+  text-align: center;
+  font-family: playfair display;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  margin-left: 8%;
+}
+
+.mega6 {
+  padding-top: 10px;
+}
+.mega4 {
+  display: inline;
+}
+#mega {
+  background-color: #86592d;
+  margin-bottom: 20px;
+  height: 63px;
+  padding-bottom: 10px;
+}
+h1 {
+  text-align: center;
+  font-size: 70px;
+  font-family: dancing script;
+  font-weight: 550;
+  color: #86592d;
+  margin: 0px auto;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: Verdana, sans-serif;
+}
+.mySlides {
+  display: none;
+}
+img {
+  vertical-align: middle;
+}
+.megastar {
+  display: inline;
+}
+#megastar1 {
+  font-weight: 400;
+  font-family: playfair display;
+  font-size: 25px;
+}
+/* #megastar1:hover {
+  font-size: 28px;
+} */
+#searchbox {
+  margin-left: 55%;
+  border: none;
+  margin-top: -5px;
+  background-color: #734d26;
+  opacity: 0.4;
+}
+.text2 {
+  margin-left: 50%;
+  font-family: playfair display;
+}
+.box {
+  width: 100%;
+  background-color: #c68c53;
+  height: 90vh;
+  margin-top: 40px;
+  padding:30px;
+}
+/* .footer{width:40%;background-color:#c68c53;height:55vh;margin-top:40px;display:inline-block;}
+.footer3{width:60%;background-color:#c68c53;height:55vh;margin-top:40px;display:inline-block;} */
+.footer4 {
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  color:#4d3319;
+}
+.footer5 {
+  font-size: 15px;
+  margin-bottom: 0px;
+  color:#604020;
+}
+.footer2{margin-top:0px;}
+
+.searches1{margin-top:0px;color:#604020;}
+.footer6{margin-bottom:60px;}
+
+.footer,
+.footer3,
+.footer6{
+  display:inline-block;}
+
+.footer3 {
+  margin-left: 120px;
+}
+.footer7{
+  font-size:20px;
+  
+  color:#4d3319;
+}
+.footer1 {
+  margin-left: 40px;
+  font-size: 20px;
+  
+  color:#4d3319;
+}
+.footer6{
+  margin-left:100px;margin-top:-30px;
+}
+.grid {
+  display: grid;
+  align-content: center;
+}
+.photo {
+  background-image: url("https://www.teejh.com/cdn/shop/products/TEJ605_2_540x.jpg?v=1628764588");
+  background-size: contain;
+  width: 25vw;
+  height: 60vh;
+  background-repeat: no-repeat;
+}
+/* .photo{padding:1px;background-image:url('');background-repeat:no-repeat;
+  width:25vw;height:60vh;background-size:contain;margin:0px 30px;} */
+.text1,
+.text2,
+.text3,
+.text4,
+.text5,
+.text6,
+.text4,
+.text7,
+.text8 {
+  height: 6vh;
+  width: 13vw;
+  background-color: white;
+  margin-top: 84%;
+  margin-left: 6vw;
+  text-align: center;
+  font-size: x-large;
+  padding-top: 3px auto;
+  font-family: playfair display;
+}
+.text1:hover,
+.text2:hover,
+.text3:hover,
+.text4:hover,
+.text5:hover,
+.text6:hover,
+.text4:hover,
+.text7:hover,
+.text8:hover {background-color: #734d26;color:white;}
+.photo1 {
+  padding: 1px;
+  background-image: url("https://www.teejh.com/cdn/shop/files/TEJ1318_1_540x.jpg?v=1700551626");
+  background-repeat: no-repeat;
+  width: 25vw;
+  height: 60vh;
+  background-size: contain;
+
+}
+.photo:hover,
+.photo1:hover,
+.photo2:hover,
+.photo3:hover,
+.photo4:hover,
+.photo5:hover,
+.photo6:hover,
+.photo7:hover,
+.photo8:hover{transform: scale(1.05);}
+
+.photo2 {
+  padding: 1px;
+  background-image: url("https://www.teejh.com/cdn/shop/products/TES227_1_540x.jpg?v=1666260869");
+  background-repeat: no-repeat;
+  width: 25vw;
+  height: 54vh;
+  background-size: cover;
+}
+
+section {
+  justify-content: center;
+}
+
+.photo3 {
+  padding: 1px;
+  background-image: url(" https://media.istockphoto.com/id/639487044/photo/hands-of-a-potter-creating-an-earthen-jar.jpg?s=612x612&w=0&k=20&c=gCVqR1YvUT6qZhazjpNNGzlpgh_sQQJNzXNsh0ZZEh0=");
+  background-repeat: no-repeat;
+  width: 25vw;
+  height: 54vh;
+  background-size: cover;
+}
+
+.photo4 {
+  padding: 1px;
+  background-image: url("https://localnation.co.in/cdn/shop/products/M7AWOj3B4P.jpg?v=1677657827&width=1946");
+  width: 25vw;
+  height: 54vh;
+  background-size: cover;
+}
+
+.photo5 {
+  padding: 1px;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ71mzfo_3hI9pvYCeqjkey3MqvbY0MTDa4sw&usqp=CAU");
+  background-repeat: no-repeat;
+  width: 25vw;
+  height: 54vh;
+  background-size: cover;
+}
+
+.photo6 {
+  padding: 1px;
+  background-image: url("https://images.squarespace-cdn.com/content/v1/5e9757fb1dd86820e6de1ea0/1593758198059-XGOL01HF7TMJA4254203/Shae%27s+lips+painted+by+Alexa.jpg?format=1500w");
+  background-repeat: no-repeat;
+  width: 25vw;
+  height: 54vh;
+  background-size: cover;
+}
+
+.photo7 {
+  padding: 1px;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrWmSjROsaWfZbZik5GFHOih4hWd9YANE5aKL10W6Q93sNEQrUb0qO4-Z9plhX-0UqV_c&usqp=CAU");
+  width: 25vw;
+  height: 54vh;
+  background-size: cover;
+}
+
+.photo8 {
+  padding: 1px;
+  background-image: url("https://re-story.in/cdn/shop/articles/3_1200x1200.jpg?v=1691486666");
+  background-repeat: no-repeat;
+  width: 25vw;
+  height: 54vh;
+  background-size: cover;
+}
+.style {
+  font-family: "playfair display";
+}
+
+
+.photo,
+.photo1,
+.photo4 {
+  display: inline-block;
+}
+.photo2,
+.photo3,
+.photo5 {
+  display: inline-block;
+}
+.photo6,
+.photo7,
+.photo8 {
+  display: inline-block;
+  margin-top: 2.5vw;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin-top: 40px;
+  margin-right: 2vw;
+  margin-left: 2vw;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+  height: 500px;
+  width: 800px;
+  background-size: cover;
+}
+
+/* The dots/bullets/indicators */
+.dot1 {
+  margin-left: 60%;
+  margin-top: 10px;
+}
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {
+    font-size: 11px;
+  }
+}
+.searches,
+.searches1,
+.searches2,
+.searches3{margin-left:40px;
+  font-size:small;
+  }
+
+.searches,
+.searches2{margin-bottom:0px;
+  margin-top:10px;color:#4d3319;}
+
+.searches3{margin-top:0px;
+  color:#604020;}
+  .searches1{color:#604020;}
+
+.box2{background-image:url('footer.png');
+  height:60px;
+  width:70px;
+  background-size:contain;
+  background-repeat:no-repeat;
+  display:inline-block;
+}
+.box3{display:inline-block;
+  font-size:small;
+color:white;}
+
+.box4{margin-left:500px;}
+
+.try{margin-left:auto;}
+
+.seller{height:300px;
+  width:290px;
+  
+  display:inline-block;}
+
+.best{margin-left:30px;}
+.seller1{background-image:url('https://www.teejh.com/cdn/shop/files/TEJ1408_2_540x.jpg?v=1699012840');background-size:contain;}
+
+
